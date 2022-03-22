@@ -1,0 +1,3 @@
+guiao-2/entrada/* filter=lfs diff=lfs merge=lfs -text
+guiao-2/entrada/*.csv filter=lfs diff=lfs merge=lfs -text
+guiao-1/entrada/*.csv filter=lfs diff=lfs merge=lfs -text

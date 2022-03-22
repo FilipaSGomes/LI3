@@ -1,0 +1,1 @@
+# Ficheiros de Entrada para testes de Qualidade

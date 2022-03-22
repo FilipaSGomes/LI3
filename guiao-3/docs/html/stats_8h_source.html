@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de /home/ric/Documents/grupo9/guiao-3/src/stats.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Guiao 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">stats.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="stats_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef STATS_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define STATS_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="stats_8h.html#a73d6217a1a45be95a9800b50209a980a">    8</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structglobal__stats.html">global_stats</a> *<a class="code hl_typedef" href="stats_8h.html#a73d6217a1a45be95a9800b50209a980a">GStats</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><a class="code hl_struct" href="structglobal__stats.html">GStats</a> <a class="code hl_function" href="stats_8h.html#afe1dbf5cee8f7ba991d5e9e846cf6c3b">init_stats</a>();</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#a249fce0380c81e2396f238d045bb1357">free_stats</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#a468354ee750f631d9cd44bcfe2e7d35b">set_type_n</a> (<a class="code hl_struct" href="structglobal__stats.html">GStats</a> ,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#ae4888fbf4464f8f2f6cf78d0ff9981f6">set_t_users</a> (<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#aade38859a2837d3099f40d80729aadf4">set_t_contribs</a> (<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#a54b11e4707aadc35e6f647d3184362ef">set_t_repos</a> (<a class="code hl_struct" href="structglobal__stats.html">GStats</a> );</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#a83323a13941f06500ae79baa747dcee0">set_t_comms</a> (<a class="code hl_struct" href="structglobal__stats.html">GStats</a> );</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">void</span> <a class="code hl_function" href="stats_8h.html#a5aeeedac3a8f857ac52cb5a63e076e1d">set_bot_repos</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">int</span> <a class="code hl_function" href="stats_8h.html#ad589d9d61f56206fc1ac0297eaeb5f0f">get_type_n</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keywordtype">int</span> <a class="code hl_function" href="stats_8h.html#abbc6b64bf75a425a7de1399e0b55e17c">get_t_users</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keywordtype">int</span> <a class="code hl_function" href="stats_8h.html#ab1b8fc5f2fbfa7440b600ed2b75d0484">get_t_contribs</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">int</span> <a class="code hl_function" href="stats_8h.html#a5bc4e49c00499bd70a14d4da23f1293a">get_t_repos</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keywordtype">int</span> <a class="code hl_function" href="stats_8h.html#a1e3791ad720892063f45120c9ad672dd">get_t_comms</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="keywordtype">int</span> <a class="code hl_function" href="stats_8h.html#a7d270e6825318e1340c89d259da8fe75">get_bot_repos</a>(<a class="code hl_struct" href="structglobal__stats.html">GStats</a>);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astats_8h_html_a1e3791ad720892063f45120c9ad672dd"><div class="ttname"><a href="stats_8h.html#a1e3791ad720892063f45120c9ad672dd">get_t_comms</a></div><div class="ttdeci">int get_t_comms(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, devolve o numero total de commits.</div><div class="ttdef"><b>Definition:</b> stats.c:101</div></div>
+<div class="ttc" id="astats_8h_html_a249fce0380c81e2396f238d045bb1357"><div class="ttname"><a href="stats_8h.html#a249fce0380c81e2396f238d045bb1357">free_stats</a></div><div class="ttdeci">void free_stats(GStats)</div><div class="ttdoc">Aplica a função Free a uma struct GStats.</div><div class="ttdef"><b>Definition:</b> stats.c:41</div></div>
+<div class="ttc" id="astats_8h_html_a468354ee750f631d9cd44bcfe2e7d35b"><div class="ttname"><a href="stats_8h.html#a468354ee750f631d9cd44bcfe2e7d35b">set_type_n</a></div><div class="ttdeci">void set_type_n(GStats, int)</div><div class="ttdoc">Dado um catálogo de estatisticas e um tipo de utilizador(int), incrementa o numero associado ao indic...</div><div class="ttdef"><b>Definition:</b> stats.c:51</div></div>
+<div class="ttc" id="astats_8h_html_a54b11e4707aadc35e6f647d3184362ef"><div class="ttname"><a href="stats_8h.html#a54b11e4707aadc35e6f647d3184362ef">set_t_repos</a></div><div class="ttdeci">void set_t_repos(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, incrementa o numero total de repos.</div><div class="ttdef"><b>Definition:</b> stats.c:61</div></div>
+<div class="ttc" id="astats_8h_html_a5aeeedac3a8f857ac52cb5a63e076e1d"><div class="ttname"><a href="stats_8h.html#a5aeeedac3a8f857ac52cb5a63e076e1d">set_bot_repos</a></div><div class="ttdeci">void set_bot_repos(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, incrementa o numero total de bots que são contribuidores nos repos.</div><div class="ttdef"><b>Definition:</b> stats.c:71</div></div>
+<div class="ttc" id="astats_8h_html_a5bc4e49c00499bd70a14d4da23f1293a"><div class="ttname"><a href="stats_8h.html#a5bc4e49c00499bd70a14d4da23f1293a">get_t_repos</a></div><div class="ttdeci">int get_t_repos(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, devolve o numero total de repos.</div><div class="ttdef"><b>Definition:</b> stats.c:95</div></div>
+<div class="ttc" id="astats_8h_html_a73d6217a1a45be95a9800b50209a980a"><div class="ttname"><a href="stats_8h.html#a73d6217a1a45be95a9800b50209a980a">GStats</a></div><div class="ttdeci">struct global_stats * GStats</div><div class="ttdef"><b>Definition:</b> stats.h:8</div></div>
+<div class="ttc" id="astats_8h_html_a7d270e6825318e1340c89d259da8fe75"><div class="ttname"><a href="stats_8h.html#a7d270e6825318e1340c89d259da8fe75">get_bot_repos</a></div><div class="ttdeci">int get_bot_repos(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, devolve o numero total de bots que são contribuidores nos repos.</div><div class="ttdef"><b>Definition:</b> stats.c:107</div></div>
+<div class="ttc" id="astats_8h_html_a83323a13941f06500ae79baa747dcee0"><div class="ttname"><a href="stats_8h.html#a83323a13941f06500ae79baa747dcee0">set_t_comms</a></div><div class="ttdeci">void set_t_comms(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, incrementa o numero total de commits.</div><div class="ttdef"><b>Definition:</b> stats.c:66</div></div>
+<div class="ttc" id="astats_8h_html_aade38859a2837d3099f40d80729aadf4"><div class="ttname"><a href="stats_8h.html#aade38859a2837d3099f40d80729aadf4">set_t_contribs</a></div><div class="ttdeci">void set_t_contribs(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, incrementa o numero total de contribuidores.</div><div class="ttdef"><b>Definition:</b> stats.c:56</div></div>
+<div class="ttc" id="astats_8h_html_ab1b8fc5f2fbfa7440b600ed2b75d0484"><div class="ttname"><a href="stats_8h.html#ab1b8fc5f2fbfa7440b600ed2b75d0484">get_t_contribs</a></div><div class="ttdeci">int get_t_contribs(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, devolve o numero total de contribuidores.</div><div class="ttdef"><b>Definition:</b> stats.c:89</div></div>
+<div class="ttc" id="astats_8h_html_abbc6b64bf75a425a7de1399e0b55e17c"><div class="ttname"><a href="stats_8h.html#abbc6b64bf75a425a7de1399e0b55e17c">get_t_users</a></div><div class="ttdeci">int get_t_users(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, devolve o numero total de users.</div><div class="ttdef"><b>Definition:</b> stats.c:77</div></div>
+<div class="ttc" id="astats_8h_html_ad589d9d61f56206fc1ac0297eaeb5f0f"><div class="ttname"><a href="stats_8h.html#ad589d9d61f56206fc1ac0297eaeb5f0f">get_type_n</a></div><div class="ttdeci">int get_type_n(GStats, int)</div><div class="ttdoc">Dado um catálogo de estatisticas e um tipo de utilizador(int), devolve o numero total de users desse ...</div><div class="ttdef"><b>Definition:</b> stats.c:83</div></div>
+<div class="ttc" id="astats_8h_html_ae4888fbf4464f8f2f6cf78d0ff9981f6"><div class="ttname"><a href="stats_8h.html#ae4888fbf4464f8f2f6cf78d0ff9981f6">set_t_users</a></div><div class="ttdeci">void set_t_users(GStats)</div><div class="ttdoc">Dado um catálogo de estatisticas, incrementa o numero total de users.</div><div class="ttdef"><b>Definition:</b> stats.c:46</div></div>
+<div class="ttc" id="astats_8h_html_afe1dbf5cee8f7ba991d5e9e846cf6c3b"><div class="ttname"><a href="stats_8h.html#afe1dbf5cee8f7ba991d5e9e846cf6c3b">init_stats</a></div><div class="ttdeci">GStats init_stats()</div><div class="ttdoc">Inicializa a struct que contem várias estatisticas.</div><div class="ttdef"><b>Definition:</b> stats.c:27</div></div>
+<div class="ttc" id="astructglobal__stats_html"><div class="ttname"><a href="structglobal__stats.html">global_stats</a></div><div class="ttdef"><b>Definition:</b> stats.c:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

@@ -1,0 +1,1 @@
+# Pasta para ficheiros de testes de Qualidade

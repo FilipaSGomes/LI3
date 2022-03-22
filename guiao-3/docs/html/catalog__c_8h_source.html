@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de /home/ric/Documents/grupo9/guiao-3/src/catalog_c.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Guiao 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">catalog_c.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="catalog__c_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef CATALOG_C_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define CATALOG_C_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="catalog__c_8h.html#ae5896d62be69e74b3154d93e2f28cbb7">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structcommit.html">commit</a> *<a class="code hl_typedef" href="catalog__c_8h.html#ae5896d62be69e74b3154d93e2f28cbb7">Commit</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="catalog__c_8h.html#ae5be874ae1628b37b738777a308d8bf6">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structcommit__entry.html">commit_entry</a> *<a class="code hl_typedef" href="catalog__c_8h.html#ae5be874ae1628b37b738777a308d8bf6">CEntry</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="catalog__c_8h.html#a4f821f1c77ff54e0d8a7b5aeebcd6f0f">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structcatalog__c.html">catalog_c</a> *<a class="code hl_typedef" href="catalog__c_8h.html#a4f821f1c77ff54e0d8a7b5aeebcd6f0f">CatalogC</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><a class="code hl_struct" href="structcatalog__c.html">CatalogC</a> <a class="code hl_function" href="catalog__c_8h.html#a323f2d630ad4ff669d1da9934e877fe7">cat_c_init</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__c_8h.html#a6a5c9b79fb12affa5ce3f0bd5deb3319">free_catalog_c</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__c_8h.html#adb269995a014bf877edb31ae53d61f00">insert_commit_cat</a>(<span class="keywordtype">int</span>, <span class="keywordtype">int</span>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>,<span class="keywordtype">char</span> *, <span class="keywordtype">int</span> *, <a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">int</span> *<a class="code hl_function" href="catalog__c_8h.html#a8aabe6f5e7b966a5c8e9af696b4c6a72">get_com_date_by_id</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keywordtype">char</span> *<a class="code hl_function" href="catalog__c_8h.html#a81af73ed7b6f8be7c24bf83493b8d25e">get_com_message_by_id</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__c_8h.html#aa0f0b6a0b5309ece144ff073217bdc34">get_com_r_by_id</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__c_8h.html#a8db847e15a0f82a904d00c82642ce34e">get_com_u_by_id</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__c_8h.html#a18ab9b791c36eaa420428732e71065ad">get_com_r_id_by_position</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keywordtype">int</span> *<a class="code hl_function" href="catalog__c_8h.html#a8f093a1ed55c0d52f90cf7cef2619e42">get_com_date_by_position</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__c_8h.html#a117569f65592db04a4c5e7a464b9a148">check_n_total_commits</a>(<a class="code hl_struct" href="structcatalog__c.html">CatalogC</a>);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="ttc" id="acatalog__c_8h_html_a117569f65592db04a4c5e7a464b9a148"><div class="ttname"><a href="catalog__c_8h.html#a117569f65592db04a4c5e7a464b9a148">check_n_total_commits</a></div><div class="ttdeci">int check_n_total_commits(CatalogC)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:234</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a18ab9b791c36eaa420428732e71065ad"><div class="ttname"><a href="catalog__c_8h.html#a18ab9b791c36eaa420428732e71065ad">get_com_r_id_by_position</a></div><div class="ttdeci">int get_com_r_id_by_position(CatalogC, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:201</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a323f2d630ad4ff669d1da9934e877fe7"><div class="ttname"><a href="catalog__c_8h.html#a323f2d630ad4ff669d1da9934e877fe7">cat_c_init</a></div><div class="ttdeci">CatalogC cat_c_init()</div><div class="ttdoc">Inicializa um catálogo de commits.</div><div class="ttdef"><b>Definition:</b> catalog_c.c:129</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a4f821f1c77ff54e0d8a7b5aeebcd6f0f"><div class="ttname"><a href="catalog__c_8h.html#a4f821f1c77ff54e0d8a7b5aeebcd6f0f">CatalogC</a></div><div class="ttdeci">struct catalog_c * CatalogC</div><div class="ttdef"><b>Definition:</b> catalog_c.h:15</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a6a5c9b79fb12affa5ce3f0bd5deb3319"><div class="ttname"><a href="catalog__c_8h.html#a6a5c9b79fb12affa5ce3f0bd5deb3319">free_catalog_c</a></div><div class="ttdeci">void free_catalog_c(CatalogC)</div><div class="ttdoc">Aplica a funçao Free ao catálogo de commits.</div><div class="ttdef"><b>Definition:</b> catalog_c.c:139</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a81af73ed7b6f8be7c24bf83493b8d25e"><div class="ttname"><a href="catalog__c_8h.html#a81af73ed7b6f8be7c24bf83493b8d25e">get_com_message_by_id</a></div><div class="ttdeci">char * get_com_message_by_id(CatalogC, int)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:223</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a8aabe6f5e7b966a5c8e9af696b4c6a72"><div class="ttname"><a href="catalog__c_8h.html#a8aabe6f5e7b966a5c8e9af696b4c6a72">get_com_date_by_id</a></div><div class="ttdeci">int * get_com_date_by_id(CatalogC, int)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:160</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a8db847e15a0f82a904d00c82642ce34e"><div class="ttname"><a href="catalog__c_8h.html#a8db847e15a0f82a904d00c82642ce34e">get_com_u_by_id</a></div><div class="ttdeci">int get_com_u_by_id(CatalogC, int)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:212</div></div>
+<div class="ttc" id="acatalog__c_8h_html_a8f093a1ed55c0d52f90cf7cef2619e42"><div class="ttname"><a href="catalog__c_8h.html#a8f093a1ed55c0d52f90cf7cef2619e42">get_com_date_by_position</a></div><div class="ttdeci">int * get_com_date_by_position(CatalogC, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:175</div></div>
+<div class="ttc" id="acatalog__c_8h_html_aa0f0b6a0b5309ece144ff073217bdc34"><div class="ttname"><a href="catalog__c_8h.html#aa0f0b6a0b5309ece144ff073217bdc34">get_com_r_by_id</a></div><div class="ttdeci">int get_com_r_by_id(CatalogC, int)</div><div class="ttdef"><b>Definition:</b> catalog_c.c:190</div></div>
+<div class="ttc" id="acatalog__c_8h_html_adb269995a014bf877edb31ae53d61f00"><div class="ttname"><a href="catalog__c_8h.html#adb269995a014bf877edb31ae53d61f00">insert_commit_cat</a></div><div class="ttdeci">void insert_commit_cat(int, int, int, int, char *, int *, CatalogC)</div><div class="ttdoc">Insere um registo de um commit num catálogo de registos de commit.</div><div class="ttdef"><b>Definition:</b> catalog_c.c:113</div></div>
+<div class="ttc" id="acatalog__c_8h_html_ae5896d62be69e74b3154d93e2f28cbb7"><div class="ttname"><a href="catalog__c_8h.html#ae5896d62be69e74b3154d93e2f28cbb7">Commit</a></div><div class="ttdeci">struct commit * Commit</div><div class="ttdef"><b>Definition:</b> catalog_c.h:13</div></div>
+<div class="ttc" id="acatalog__c_8h_html_ae5be874ae1628b37b738777a308d8bf6"><div class="ttname"><a href="catalog__c_8h.html#ae5be874ae1628b37b738777a308d8bf6">CEntry</a></div><div class="ttdeci">struct commit_entry * CEntry</div><div class="ttdef"><b>Definition:</b> catalog_c.h:14</div></div>
+<div class="ttc" id="astructcatalog__c_html"><div class="ttname"><a href="structcatalog__c.html">catalog_c</a></div><div class="ttdef"><b>Definition:</b> catalog_c.c:32</div></div>
+<div class="ttc" id="astructcommit__entry_html"><div class="ttname"><a href="structcommit__entry.html">commit_entry</a></div><div class="ttdef"><b>Definition:</b> catalog_c.c:22</div></div>
+<div class="ttc" id="astructcommit_html"><div class="ttname"><a href="structcommit.html">commit</a></div><div class="ttdef"><b>Definition:</b> catalog_c.c:8</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

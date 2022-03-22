@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de /home/ric/Documents/grupo9/guiao-3/src/query.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Guiao 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">query.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="query_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef QUERY_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define QUERY_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="meta__catalog_8h.html">meta_catalog.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="pagination_8h.html">pagination.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a2a0e843767aeea4f433a28b9c54f573a">menu</a> ();</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a97ee70a8770dc30d06c744b24eb2fcfc">help</a>();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a4fbf52dde480ee2005d1efbe618c99ca">query_1</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a476c970db0467b690e5ba5547b8ee016">query_2</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#abc2bd75ef04b7c5949a9a4b040404215">query_3</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a65850e131c692caae20797157229c8c5">query_4</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#ab9258f85b287a98c564f17e97df42726">query_5</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">int</span>, <span class="keywordtype">char</span> *, <span class="keywordtype">char</span> *, FILE *);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a91fbe02f8d5e77c90f4da7830de8cd75">query_6</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">int</span>, <span class="keywordtype">char</span> *, FILE *);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#aee84b1b274dca45f254fe06724cb75a1">query_7</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">char</span> *, FILE *);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a72a07988975ad431971dd6b479b7d1ee">query_8</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">int</span>, <span class="keywordtype">char</span> *, FILE *);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#adad80139d8768cf36cc929897bb379bd">query_9</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">int</span>, FILE *);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#aa4dc27969b713acccf6ae6154bc29cb8">query_10</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">int</span>, FILE *);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="comment">//Efetua a query 11, tendo como output o top N(int) de utilizadores com as maiores mensagens de commit</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a10f2143d9c9e1cc8abbd90daa56ae3a0">query_11</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, <span class="keywordtype">int</span>, FILE *);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="comment">//Efetua a query 12, tendo como output o numero total de registos de utilizadores validos</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#a84afaaf1c17dfb3bc88d165d3828df36">query_12</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="comment">//Efetua a query 13, tendo como output o numero total de registos de commits validos</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#aabff1174aa21aab7c0e84f6e76f87749">query_13</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="comment">//Efetua a query 14, tendo como output o numero total de registos de repos validos</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keywordtype">void</span> <a class="code hl_function" href="query_8h.html#ab61ea6a9fa418968575acc490230311f">query_14</a>(<a class="code hl_struct" href="structmeta__catalog.html">MCatalog</a>, FILE *);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="ameta__catalog_8h_html"><div class="ttname"><a href="meta__catalog_8h.html">meta_catalog.h</a></div></div>
+<div class="ttc" id="apagination_8h_html"><div class="ttname"><a href="pagination_8h.html">pagination.h</a></div></div>
+<div class="ttc" id="aquery_8h_html_a10f2143d9c9e1cc8abbd90daa56ae3a0"><div class="ttname"><a href="query_8h.html#a10f2143d9c9e1cc8abbd90daa56ae3a0">query_11</a></div><div class="ttdeci">void query_11(MCatalog, int, FILE *)</div><div class="ttdef"><b>Definition:</b> query.c:465</div></div>
+<div class="ttc" id="aquery_8h_html_a2a0e843767aeea4f433a28b9c54f573a"><div class="ttname"><a href="query_8h.html#a2a0e843767aeea4f433a28b9c54f573a">menu</a></div><div class="ttdeci">void menu()</div><div class="ttdoc">Escreve um menu com instruções para invocar as várias queries.</div><div class="ttdef"><b>Definition:</b> query.c:19</div></div>
+<div class="ttc" id="aquery_8h_html_a476c970db0467b690e5ba5547b8ee016"><div class="ttname"><a href="query_8h.html#a476c970db0467b690e5ba5547b8ee016">query_2</a></div><div class="ttdeci">void query_2(MCatalog, FILE *)</div><div class="ttdoc">Efetua a query 2, tendo como output o número médio de colaboradores por repositório.</div><div class="ttdef"><b>Definition:</b> query.c:84</div></div>
+<div class="ttc" id="aquery_8h_html_a4fbf52dde480ee2005d1efbe618c99ca"><div class="ttname"><a href="query_8h.html#a4fbf52dde480ee2005d1efbe618c99ca">query_1</a></div><div class="ttdeci">void query_1(MCatalog, FILE *)</div><div class="ttdoc">Efetua a query 1, tendo como output o número de utilizadores, bots e organizações.</div><div class="ttdef"><b>Definition:</b> query.c:69</div></div>
+<div class="ttc" id="aquery_8h_html_a65850e131c692caae20797157229c8c5"><div class="ttname"><a href="query_8h.html#a65850e131c692caae20797157229c8c5">query_4</a></div><div class="ttdeci">void query_4(MCatalog, FILE *)</div><div class="ttdoc">Efetua a query 4, tendo como output a quantidade média de commits por utilizado.</div><div class="ttdef"><b>Definition:</b> query.c:112</div></div>
+<div class="ttc" id="aquery_8h_html_a72a07988975ad431971dd6b479b7d1ee"><div class="ttname"><a href="query_8h.html#a72a07988975ad431971dd6b479b7d1ee">query_8</a></div><div class="ttdeci">void query_8(MCatalog, int, char *, FILE *)</div><div class="ttdoc">Efetua a query 8, tendo como output o top N(int) de linguagens mais utilizadas a partir de uma determ...</div><div class="ttdef"><b>Definition:</b> query.c:261</div></div>
+<div class="ttc" id="aquery_8h_html_a84afaaf1c17dfb3bc88d165d3828df36"><div class="ttname"><a href="query_8h.html#a84afaaf1c17dfb3bc88d165d3828df36">query_12</a></div><div class="ttdeci">void query_12(MCatalog, FILE *)</div><div class="ttdef"><b>Definition:</b> query.c:525</div></div>
+<div class="ttc" id="aquery_8h_html_a91fbe02f8d5e77c90f4da7830de8cd75"><div class="ttname"><a href="query_8h.html#a91fbe02f8d5e77c90f4da7830de8cd75">query_6</a></div><div class="ttdeci">void query_6(MCatalog, int, char *, FILE *)</div><div class="ttdoc">Efetua a query 6, tendo como output o top N(int) de utilizadores com mais commits em repositórios de ...</div><div class="ttdef"><b>Definition:</b> query.c:163</div></div>
+<div class="ttc" id="aquery_8h_html_a97ee70a8770dc30d06c744b24eb2fcfc"><div class="ttname"><a href="query_8h.html#a97ee70a8770dc30d06c744b24eb2fcfc">help</a></div><div class="ttdeci">void help()</div><div class="ttdef"><b>Definition:</b> query.c:45</div></div>
+<div class="ttc" id="aquery_8h_html_aa4dc27969b713acccf6ae6154bc29cb8"><div class="ttname"><a href="query_8h.html#aa4dc27969b713acccf6ae6154bc29cb8">query_10</a></div><div class="ttdeci">void query_10(MCatalog, int, FILE *)</div><div class="ttdoc">Efetua a query 10, tendo como output o top N(int) de utilizadores com as maiores mensagens de commit ...</div><div class="ttdef"><b>Definition:</b> query.c:402</div></div>
+<div class="ttc" id="aquery_8h_html_aabff1174aa21aab7c0e84f6e76f87749"><div class="ttname"><a href="query_8h.html#aabff1174aa21aab7c0e84f6e76f87749">query_13</a></div><div class="ttdeci">void query_13(MCatalog, FILE *)</div><div class="ttdef"><b>Definition:</b> query.c:538</div></div>
+<div class="ttc" id="aquery_8h_html_ab61ea6a9fa418968575acc490230311f"><div class="ttname"><a href="query_8h.html#ab61ea6a9fa418968575acc490230311f">query_14</a></div><div class="ttdeci">void query_14(MCatalog, FILE *)</div><div class="ttdef"><b>Definition:</b> query.c:551</div></div>
+<div class="ttc" id="aquery_8h_html_ab9258f85b287a98c564f17e97df42726"><div class="ttname"><a href="query_8h.html#ab9258f85b287a98c564f17e97df42726">query_5</a></div><div class="ttdeci">void query_5(MCatalog, int, char *, char *, FILE *)</div><div class="ttdoc">Efetua a query 5, tendo como output o top N(int) de utilizadores mais ativos num determinado interval...</div><div class="ttdef"><b>Definition:</b> query.c:127</div></div>
+<div class="ttc" id="aquery_8h_html_abc2bd75ef04b7c5949a9a4b040404215"><div class="ttname"><a href="query_8h.html#abc2bd75ef04b7c5949a9a4b040404215">query_3</a></div><div class="ttdeci">void query_3(MCatalog, FILE *)</div><div class="ttdoc">Efetua a query 3, tendo como output a quantidade de repositórios com bots como colaboradores.</div><div class="ttdef"><b>Definition:</b> query.c:99</div></div>
+<div class="ttc" id="aquery_8h_html_adad80139d8768cf36cc929897bb379bd"><div class="ttname"><a href="query_8h.html#adad80139d8768cf36cc929897bb379bd">query_9</a></div><div class="ttdeci">void query_9(MCatalog, int, FILE *)</div><div class="ttdoc">Efetua a query 9, tendo como output o top N(int) de utilizadores com mais commits em repositórios cuj...</div><div class="ttdef"><b>Definition:</b> query.c:345</div></div>
+<div class="ttc" id="aquery_8h_html_aee84b1b274dca45f254fe06724cb75a1"><div class="ttname"><a href="query_8h.html#aee84b1b274dca45f254fe06724cb75a1">query_7</a></div><div class="ttdeci">void query_7(MCatalog, char *, FILE *)</div><div class="ttdoc">Efetua a query 7, tendo como output os repositórios inativos(sem commits) a partir de uma determinada...</div><div class="ttdef"><b>Definition:</b> query.c:185</div></div>
+<div class="ttc" id="astructmeta__catalog_html"><div class="ttname"><a href="structmeta__catalog.html">meta_catalog</a></div><div class="ttdef"><b>Definition:</b> meta_catalog.c:9</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

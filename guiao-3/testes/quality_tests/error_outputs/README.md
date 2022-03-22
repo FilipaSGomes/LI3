@@ -1,0 +1,1 @@
+# Ficheiros de Erros para testes de Qualidade

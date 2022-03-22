@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de /home/ric/Documents/grupo9/guiao-3/src/catalog_r.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Guiao 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">catalog_r.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="catalog__r_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef CATALOG_R_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define CATALOG_R_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="catalog__r_8h.html#ac2fcceb104f72e2ba4025e22d8225ee0">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structrepo.html">repo</a> *<a class="code hl_typedef" href="catalog__r_8h.html#ac2fcceb104f72e2ba4025e22d8225ee0">Repo</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="catalog__r_8h.html#a70f2cafd69163c1e443715fd136a45a2">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structrepo__entry.html">repo_entry</a> *<a class="code hl_typedef" href="catalog__r_8h.html#a70f2cafd69163c1e443715fd136a45a2">REntry</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="catalog__r_8h.html#a515d1139aac71cb3dbbb6a7185368fa6">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structcatalog__r.html">catalog_r</a> *<a class="code hl_typedef" href="catalog__r_8h.html#a515d1139aac71cb3dbbb6a7185368fa6">CatalogR</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__r_8h.html#ae12a88149d054edd44b13f48eaed5e64">check_repo_exists</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a> ,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><a class="code hl_struct" href="structcatalog__r.html">CatalogR</a> <a class="code hl_function" href="catalog__r_8h.html#a1be46ebcbe24f46c37d69a3052175f12">cat_r_init</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__r_8h.html#a1d03d8560b4c364ff109e75ec107ead3">free_catalog_r</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__r_8h.html#afa5efe51a457c8dd3e1328cc3c07ccd2">insert_repo_cat</a>(<span class="keywordtype">int</span>, <span class="keywordtype">int</span>,<span class="keywordtype">char</span>*, <span class="keywordtype">char</span>*, <span class="keywordtype">int</span>*, <a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__r_8h.html#a36cc8bc751744da02d8da83cff80c27a">add_contrib</a>(<span class="keywordtype">int</span> , <span class="keywordtype">int</span>, <span class="keywordtype">int</span> , <span class="keywordtype">int</span> , <a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>, <span class="keywordtype">int</span>, <span class="keywordtype">int</span> *);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keywordtype">int</span> *<a class="code hl_function" href="catalog__r_8h.html#a1b2cac4749f53c889539ef966a43a4a8">get_repos_last_activ_by_position</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__r_8h.html#a33d78c0889f38cc39bf8384876f0757b">get_repos_id_by_position</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span> ,<span class="keywordtype">int</span> );</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">char</span> *<a class="code hl_function" href="catalog__r_8h.html#ab6c2ba6c121ba33a2dd7c132dda0a528">get_repos_desc_by_position</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">int</span> *<a class="code hl_function" href="catalog__r_8h.html#a23579c01a38e20ccbc4111806fe1709d">get_repos_date_by_position</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keywordtype">char</span> *<a class="code hl_function" href="catalog__r_8h.html#af90139cf9f67784e7af97f234dadd317">get_repos_lng_by_position</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keywordtype">int</span> *<a class="code hl_function" href="catalog__r_8h.html#a65a2cb11a04619f9efbe7fdc97bace03">get_repos_date_by_id</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keywordtype">char</span> *<a class="code hl_function" href="catalog__r_8h.html#a2550e8cbe759de8df96babac13d57483">get_repos_lng_by_id</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__r_8h.html#a8cfd9215cf1dadceb331b6f8f534e7e1">get_repo_owner_by_id</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__r_8h.html#a09987902431529275898cc56d98dd810">get_repos_n_coms_by_id</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keywordtype">int</span> *<a class="code hl_function" href="catalog__r_8h.html#ac848fae552a53907b6cd8bc13012d369">get_repos_coms_by_id</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__r_8h.html#a4db5e0ae430f824762f6c40d2333afe9">check_empty_repos</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__r_8h.html#aa6e057b147c0929445275e34cacb1ce0">check_n_total_repos</a>(<a class="code hl_struct" href="structcatalog__r.html">CatalogR</a>);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acatalog__r_8h_html_a09987902431529275898cc56d98dd810"><div class="ttname"><a href="catalog__r_8h.html#a09987902431529275898cc56d98dd810">get_repos_n_coms_by_id</a></div><div class="ttdeci">int get_repos_n_coms_by_id(CatalogR, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:345</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a1b2cac4749f53c889539ef966a43a4a8"><div class="ttname"><a href="catalog__r_8h.html#a1b2cac4749f53c889539ef966a43a4a8">get_repos_last_activ_by_position</a></div><div class="ttdeci">int * get_repos_last_activ_by_position(CatalogR, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:245</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a1be46ebcbe24f46c37d69a3052175f12"><div class="ttname"><a href="catalog__r_8h.html#a1be46ebcbe24f46c37d69a3052175f12">cat_r_init</a></div><div class="ttdeci">CatalogR cat_r_init()</div><div class="ttdoc">Inicializa um catálogo de repos.</div><div class="ttdef"><b>Definition:</b> catalog_r.c:170</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a1d03d8560b4c364ff109e75ec107ead3"><div class="ttname"><a href="catalog__r_8h.html#a1d03d8560b4c364ff109e75ec107ead3">free_catalog_r</a></div><div class="ttdeci">void free_catalog_r(CatalogR)</div><div class="ttdoc">Aplica a funçao Free ao catálogo de repos.</div><div class="ttdef"><b>Definition:</b> catalog_r.c:179</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a23579c01a38e20ccbc4111806fe1709d"><div class="ttname"><a href="catalog__r_8h.html#a23579c01a38e20ccbc4111806fe1709d">get_repos_date_by_position</a></div><div class="ttdeci">int * get_repos_date_by_position(CatalogR, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:282</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a2550e8cbe759de8df96babac13d57483"><div class="ttname"><a href="catalog__r_8h.html#a2550e8cbe759de8df96babac13d57483">get_repos_lng_by_id</a></div><div class="ttdeci">char * get_repos_lng_by_id(CatalogR, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:323</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a33d78c0889f38cc39bf8384876f0757b"><div class="ttname"><a href="catalog__r_8h.html#a33d78c0889f38cc39bf8384876f0757b">get_repos_id_by_position</a></div><div class="ttdeci">int get_repos_id_by_position(CatalogR, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:260</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a36cc8bc751744da02d8da83cff80c27a"><div class="ttname"><a href="catalog__r_8h.html#a36cc8bc751744da02d8da83cff80c27a">add_contrib</a></div><div class="ttdeci">int add_contrib(int, int, int, int, CatalogR, int, int *)</div><div class="ttdoc">Adiciona contribuidores a um registo de um repo, que se encontra num catalogo de registos de repos.</div><div class="ttdef"><b>Definition:</b> catalog_r.c:200</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a4db5e0ae430f824762f6c40d2333afe9"><div class="ttname"><a href="catalog__r_8h.html#a4db5e0ae430f824762f6c40d2333afe9">check_empty_repos</a></div><div class="ttdeci">void check_empty_repos(CatalogR)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:373</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a515d1139aac71cb3dbbb6a7185368fa6"><div class="ttname"><a href="catalog__r_8h.html#a515d1139aac71cb3dbbb6a7185368fa6">CatalogR</a></div><div class="ttdeci">struct catalog_r * CatalogR</div><div class="ttdef"><b>Definition:</b> catalog_r.h:15</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a65a2cb11a04619f9efbe7fdc97bace03"><div class="ttname"><a href="catalog__r_8h.html#a65a2cb11a04619f9efbe7fdc97bace03">get_repos_date_by_id</a></div><div class="ttdeci">int * get_repos_date_by_id(CatalogR, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:308</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a70f2cafd69163c1e443715fd136a45a2"><div class="ttname"><a href="catalog__r_8h.html#a70f2cafd69163c1e443715fd136a45a2">REntry</a></div><div class="ttdeci">struct repo_entry * REntry</div><div class="ttdef"><b>Definition:</b> catalog_r.h:14</div></div>
+<div class="ttc" id="acatalog__r_8h_html_a8cfd9215cf1dadceb331b6f8f534e7e1"><div class="ttname"><a href="catalog__r_8h.html#a8cfd9215cf1dadceb331b6f8f534e7e1">get_repo_owner_by_id</a></div><div class="ttdeci">int get_repo_owner_by_id(CatalogR, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:334</div></div>
+<div class="ttc" id="acatalog__r_8h_html_aa6e057b147c0929445275e34cacb1ce0"><div class="ttname"><a href="catalog__r_8h.html#aa6e057b147c0929445275e34cacb1ce0">check_n_total_repos</a></div><div class="ttdeci">int check_n_total_repos(CatalogR)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:394</div></div>
+<div class="ttc" id="acatalog__r_8h_html_ab6c2ba6c121ba33a2dd7c132dda0a528"><div class="ttname"><a href="catalog__r_8h.html#ab6c2ba6c121ba33a2dd7c132dda0a528">get_repos_desc_by_position</a></div><div class="ttdeci">char * get_repos_desc_by_position(CatalogR, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:271</div></div>
+<div class="ttc" id="acatalog__r_8h_html_ac2fcceb104f72e2ba4025e22d8225ee0"><div class="ttname"><a href="catalog__r_8h.html#ac2fcceb104f72e2ba4025e22d8225ee0">Repo</a></div><div class="ttdeci">struct repo * Repo</div><div class="ttdef"><b>Definition:</b> catalog_r.h:13</div></div>
+<div class="ttc" id="acatalog__r_8h_html_ac848fae552a53907b6cd8bc13012d369"><div class="ttname"><a href="catalog__r_8h.html#ac848fae552a53907b6cd8bc13012d369">get_repos_coms_by_id</a></div><div class="ttdeci">int * get_repos_coms_by_id(CatalogR, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:356</div></div>
+<div class="ttc" id="acatalog__r_8h_html_ae12a88149d054edd44b13f48eaed5e64"><div class="ttname"><a href="catalog__r_8h.html#ae12a88149d054edd44b13f48eaed5e64">check_repo_exists</a></div><div class="ttdeci">int check_repo_exists(CatalogR, int)</div><div class="ttdoc">Dado um catálogo de repos e um indice(int), verifica se os registos de repos existem.</div><div class="ttdef"><b>Definition:</b> catalog_r.c:51</div></div>
+<div class="ttc" id="acatalog__r_8h_html_af90139cf9f67784e7af97f234dadd317"><div class="ttname"><a href="catalog__r_8h.html#af90139cf9f67784e7af97f234dadd317">get_repos_lng_by_position</a></div><div class="ttdeci">char * get_repos_lng_by_position(CatalogR, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_r.c:297</div></div>
+<div class="ttc" id="acatalog__r_8h_html_afa5efe51a457c8dd3e1328cc3c07ccd2"><div class="ttname"><a href="catalog__r_8h.html#afa5efe51a457c8dd3e1328cc3c07ccd2">insert_repo_cat</a></div><div class="ttdeci">void insert_repo_cat(int, int, char *, char *, int *, CatalogR)</div><div class="ttdoc">Insere um registo de um repo num catálogo de registos de repos.</div><div class="ttdef"><b>Definition:</b> catalog_r.c:143</div></div>
+<div class="ttc" id="astructcatalog__r_html"><div class="ttname"><a href="structcatalog__r.html">catalog_r</a></div><div class="ttdef"><b>Definition:</b> catalog_r.c:41</div></div>
+<div class="ttc" id="astructrepo__entry_html"><div class="ttname"><a href="structrepo__entry.html">repo_entry</a></div><div class="ttdef"><b>Definition:</b> catalog_r.c:34</div></div>
+<div class="ttc" id="astructrepo_html"><div class="ttname"><a href="structrepo.html">repo</a></div><div class="ttdef"><b>Definition:</b> catalog_r.c:8</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>

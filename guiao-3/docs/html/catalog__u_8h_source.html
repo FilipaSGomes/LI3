@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 3: Código-Fonte de /home/ric/Documents/grupo9/guiao-3/src/catalog_u.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Guiao 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">catalog_u.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="catalog__u_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef CATALOG_U_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define CATALOG_U_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="utils_8h.html">utils.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="catalog__u_8h.html#a13f23ac3ab8162a6b8b279ba546469e5">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structuser.html">user</a> *<a class="code hl_typedef" href="catalog__u_8h.html#a13f23ac3ab8162a6b8b279ba546469e5">User</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="catalog__u_8h.html#a59463eae56aae823657f08026fd10c05">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structcatalog__u.html">catalog_u</a> *<a class="code hl_typedef" href="catalog__u_8h.html#a59463eae56aae823657f08026fd10c05">CatalogU</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="catalog__u_8h.html#af552b1161cddfa26bc10e1c23b7abd0f">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structuser__entry.html">user_entry</a> *<a class="code hl_typedef" href="catalog__u_8h.html#af552b1161cddfa26bc10e1c23b7abd0f">UEntry</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">char</span>* <a class="code hl_function" href="catalog__u_8h.html#ac4b065cf65add4317936f8f5ca266f1e">check_user_login_by_id</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>, <span class="keywordtype">int</span> );</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a2ed1c185b54ef4247127a144bd7379e5">check_user_exists</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><a class="code hl_struct" href="structcatalog__u.html">CatalogU</a> <a class="code hl_function" href="catalog__u_8h.html#a514e6223d5b7f5600d0fde3b3f47f4f9">cat_u_init</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__u_8h.html#acf0101ed356796af594adba7711d0ce0">free_catalog_u</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a18cad185b3b42b4a3a1917c723ad2808">insert_user_cat</a>(<span class="keywordtype">int</span>, <span class="keywordtype">char</span>*, <span class="keywordtype">char</span>*,<span class="keywordtype">int</span>*,<span class="keywordtype">int</span>, <a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a4a9cb6fac04a2addec5d1ebacfd60e4c">check_bot</a>(<span class="keywordtype">int</span> , <a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keywordtype">void</span> <a class="code hl_function" href="catalog__u_8h.html#a0ffeb715e0ddd1988ff9dda4303ef12c">add_com_to_user</a>(<span class="keywordtype">int</span> , <span class="keywordtype">int</span>, <span class="keywordtype">int</span> , <a class="code hl_struct" href="structcatalog__u.html">CatalogU</a> );</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a5549bcfa2026b14ecd990b0c749254bc">get_id_by_pos</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a2c678e9e9b8b93a86613b69226a7d0df">get_n_coms_by_pos</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">int</span>* <a class="code hl_function" href="catalog__u_8h.html#a66ea090c04218ca4b533ccf3023f647c">get_user_coms_by_pos</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>,<span class="keywordtype">int</span>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a9e17f1630f2a023f3eef448fa42c92f8">get_user_t_fr_by_id</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#aa225c7574287f193fee1e8abab0ddd8c">get_user_t_coms_by_id</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>,<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">int</span>* <a class="code hl_function" href="catalog__u_8h.html#a3e7ede8dd72aced5b4f9e8215b9f02e9">get_user_friends_by_id</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keywordtype">int</span>* <a class="code hl_function" href="catalog__u_8h.html#a0f442c79084521aae9b9e503941387b3">get_user_coms_by_id</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keywordtype">int</span> <a class="code hl_function" href="catalog__u_8h.html#a16c5c5830f95b4565fd6596bbbed78ae">check_n_total_users</a>(<a class="code hl_struct" href="structcatalog__u.html">CatalogU</a> );</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acatalog__u_8h_html_a0f442c79084521aae9b9e503941387b3"><div class="ttname"><a href="catalog__u_8h.html#a0f442c79084521aae9b9e503941387b3">get_user_coms_by_id</a></div><div class="ttdeci">int * get_user_coms_by_id(CatalogU, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:311</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a0ffeb715e0ddd1988ff9dda4303ef12c"><div class="ttname"><a href="catalog__u_8h.html#a0ffeb715e0ddd1988ff9dda4303ef12c">add_com_to_user</a></div><div class="ttdeci">void add_com_to_user(int, int, int, CatalogU)</div><div class="ttdoc">Adiciona o id de um commit ao efetuado por um user a lista de commits desse user.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:206</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a13f23ac3ab8162a6b8b279ba546469e5"><div class="ttname"><a href="catalog__u_8h.html#a13f23ac3ab8162a6b8b279ba546469e5">User</a></div><div class="ttdeci">struct user * User</div><div class="ttdef"><b>Definition:</b> catalog_u.h:13</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a16c5c5830f95b4565fd6596bbbed78ae"><div class="ttname"><a href="catalog__u_8h.html#a16c5c5830f95b4565fd6596bbbed78ae">check_n_total_users</a></div><div class="ttdeci">int check_n_total_users(CatalogU)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:328</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a18cad185b3b42b4a3a1917c723ad2808"><div class="ttname"><a href="catalog__u_8h.html#a18cad185b3b42b4a3a1917c723ad2808">insert_user_cat</a></div><div class="ttdeci">int insert_user_cat(int, char *, char *, int *, int, CatalogU)</div><div class="ttdoc">Insere um registo de um user num catálogo de registos de users.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:151</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a2c678e9e9b8b93a86613b69226a7d0df"><div class="ttname"><a href="catalog__u_8h.html#a2c678e9e9b8b93a86613b69226a7d0df">get_n_coms_by_pos</a></div><div class="ttdeci">int get_n_coms_by_pos(CatalogU, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:244</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a2ed1c185b54ef4247127a144bd7379e5"><div class="ttname"><a href="catalog__u_8h.html#a2ed1c185b54ef4247127a144bd7379e5">check_user_exists</a></div><div class="ttdeci">int check_user_exists(CatalogU, int)</div><div class="ttdoc">Dado um catálogo de users e um indice(int), verifica se os registos de user existem.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:53</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a3e7ede8dd72aced5b4f9e8215b9f02e9"><div class="ttname"><a href="catalog__u_8h.html#a3e7ede8dd72aced5b4f9e8215b9f02e9">get_user_friends_by_id</a></div><div class="ttdeci">int * get_user_friends_by_id(CatalogU, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:294</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a4a9cb6fac04a2addec5d1ebacfd60e4c"><div class="ttname"><a href="catalog__u_8h.html#a4a9cb6fac04a2addec5d1ebacfd60e4c">check_bot</a></div><div class="ttdeci">int check_bot(int, CatalogU)</div><div class="ttdoc">Verifica se um user é do tipo Bot.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:139</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a514e6223d5b7f5600d0fde3b3f47f4f9"><div class="ttname"><a href="catalog__u_8h.html#a514e6223d5b7f5600d0fde3b3f47f4f9">cat_u_init</a></div><div class="ttdeci">CatalogU cat_u_init()</div><div class="ttdoc">Inicializa um catálogo de users.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:176</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a5549bcfa2026b14ecd990b0c749254bc"><div class="ttname"><a href="catalog__u_8h.html#a5549bcfa2026b14ecd990b0c749254bc">get_id_by_pos</a></div><div class="ttdeci">int get_id_by_pos(CatalogU, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:233</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a59463eae56aae823657f08026fd10c05"><div class="ttname"><a href="catalog__u_8h.html#a59463eae56aae823657f08026fd10c05">CatalogU</a></div><div class="ttdeci">struct catalog_u * CatalogU</div><div class="ttdef"><b>Definition:</b> catalog_u.h:14</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a66ea090c04218ca4b533ccf3023f647c"><div class="ttname"><a href="catalog__u_8h.html#a66ea090c04218ca4b533ccf3023f647c">get_user_coms_by_pos</a></div><div class="ttdeci">int * get_user_coms_by_pos(CatalogU, int, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:255</div></div>
+<div class="ttc" id="acatalog__u_8h_html_a9e17f1630f2a023f3eef448fa42c92f8"><div class="ttname"><a href="catalog__u_8h.html#a9e17f1630f2a023f3eef448fa42c92f8">get_user_t_fr_by_id</a></div><div class="ttdeci">int get_user_t_fr_by_id(CatalogU, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:272</div></div>
+<div class="ttc" id="acatalog__u_8h_html_aa225c7574287f193fee1e8abab0ddd8c"><div class="ttname"><a href="catalog__u_8h.html#aa225c7574287f193fee1e8abab0ddd8c">get_user_t_coms_by_id</a></div><div class="ttdeci">int get_user_t_coms_by_id(CatalogU, int)</div><div class="ttdef"><b>Definition:</b> catalog_u.c:283</div></div>
+<div class="ttc" id="acatalog__u_8h_html_ac4b065cf65add4317936f8f5ca266f1e"><div class="ttname"><a href="catalog__u_8h.html#ac4b065cf65add4317936f8f5ca266f1e">check_user_login_by_id</a></div><div class="ttdeci">char * check_user_login_by_id(CatalogU, int)</div><div class="ttdoc">Dado um catálogo de repos e um id(int), devolve o login do user desse id.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:42</div></div>
+<div class="ttc" id="acatalog__u_8h_html_acf0101ed356796af594adba7711d0ce0"><div class="ttname"><a href="catalog__u_8h.html#acf0101ed356796af594adba7711d0ce0">free_catalog_u</a></div><div class="ttdeci">void free_catalog_u(CatalogU)</div><div class="ttdoc">Aplica a funçao Free ao catálogo de users.</div><div class="ttdef"><b>Definition:</b> catalog_u.c:185</div></div>
+<div class="ttc" id="acatalog__u_8h_html_af552b1161cddfa26bc10e1c23b7abd0f"><div class="ttname"><a href="catalog__u_8h.html#af552b1161cddfa26bc10e1c23b7abd0f">UEntry</a></div><div class="ttdeci">struct user_entry * UEntry</div><div class="ttdef"><b>Definition:</b> catalog_u.h:15</div></div>
+<div class="ttc" id="astructcatalog__u_html"><div class="ttname"><a href="structcatalog__u.html">catalog_u</a></div><div class="ttdef"><b>Definition:</b> catalog_u.c:37</div></div>
+<div class="ttc" id="astructuser__entry_html"><div class="ttname"><a href="structuser__entry.html">user_entry</a></div><div class="ttdef"><b>Definition:</b> catalog_u.c:30</div></div>
+<div class="ttc" id="astructuser_html"><div class="ttname"><a href="structuser.html">user</a></div><div class="ttdef"><b>Definition:</b> catalog_u.c:8</div></div>
+<div class="ttc" id="autils_8h_html"><div class="ttname"><a href="utils_8h.html">utils.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>
