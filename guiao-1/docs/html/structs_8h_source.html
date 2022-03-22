@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 1: Código-Fonte de /home/ric/Documents/grupo9/src/structs.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">structs.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="structs_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef STRUCTS_H</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#define STRUCTS_H </span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="structs_8h.html#a78c99ffd76a7bb3c8c74db76207e9ab4">    6</a></span><span class="preprocessor">#define _XOPEN_SOURCE</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="structs_8h.html#a3dda2dea67f3569c5f5b4ea25b97d072">    8</a></span><span class="preprocessor">#define MAX_TABLE 300000</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// &lt;========= Structs =========&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structUsers.html">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structUsers.html">Users</a>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structUsers.html#a9227a9e924b546e37b745aa152d7ca23">   15</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structUsers.html#a9227a9e924b546e37b745aa152d7ca23">id</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structUsers.html#ac3878b33bf67320891089102341efbb0">   17</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structUsers.html#ac3878b33bf67320891089102341efbb0">login</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structUsers.html#affbbdc691594cd82f74931515fef5a42">   19</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structUsers.html#affbbdc691594cd82f74931515fef5a42">type</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structUsers.html#a80b85fdae156d15e8cf9bb78c50afa42">   21</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structUsers.html#a80b85fdae156d15e8cf9bb78c50afa42">c_date</a>[6];</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structUsers.html#acbfb489904307b23316e8b05d905707f">   23</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structUsers.html#acbfb489904307b23316e8b05d905707f">followers</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structUsers.html#a23ebfb93d58593f90e1f55991111ae5b">   25</a></span>    <span class="keywordtype">int</span> *<a class="code hl_variable" href="structUsers.html#a23ebfb93d58593f90e1f55991111ae5b">flr_id</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structUsers.html#ad00939e9ea77aec2dcd0a898a1f376b6">   27</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structUsers.html#ad00939e9ea77aec2dcd0a898a1f376b6">following</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structUsers.html#a6fa048c4e0697f199d01f10fc527a6fd">   29</a></span>    <span class="keywordtype">int</span> *<a class="code hl_variable" href="structUsers.html#a6fa048c4e0697f199d01f10fc527a6fd">flg_id</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structUsers.html#a1e720ec4dbfdf9d970459436339ef44b">   31</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structUsers.html#a1e720ec4dbfdf9d970459436339ef44b">pub_gist</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structUsers.html#a226322d48acef7655483ec29559366ab">   33</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structUsers.html#a226322d48acef7655483ec29559366ab">pub_repo</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structs_8h.html#a4e9a2310a7dd63e26512f1e5fcdbcd69">   35</a></span>}<a class="code hl_typedef" href="structs_8h.html#a4e9a2310a7dd63e26512f1e5fcdbcd69">User</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structCommits.html">   38</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCommits.html">Commits</a>{</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structCommits.html#a16e776702acd0d2ab41cddd0d2771e93">   40</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structCommits.html#a16e776702acd0d2ab41cddd0d2771e93">repo_id</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="structCommits.html#ac7ef59674b859ee36d2f7b901cd2dd73">   42</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structCommits.html#ac7ef59674b859ee36d2f7b901cd2dd73">author_id</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="structCommits.html#a3a1e0d42b19f2af1339c340c428f1f08">   44</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structCommits.html#a3a1e0d42b19f2af1339c340c428f1f08">committer_id</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="structCommits.html#a6e8c58d3fa86d3e7b8c9ce5a32a5bd13">   46</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structCommits.html#a6e8c58d3fa86d3e7b8c9ce5a32a5bd13">cmt_date</a>[6];</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="structCommits.html#aaeec01da8847f64b222c75e579438591">   48</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structCommits.html#aaeec01da8847f64b222c75e579438591">message</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="structs_8h.html#abd9367fe4c438b264c1b3dd11564b577">   50</a></span>}<a class="code hl_typedef" href="structs_8h.html#abd9367fe4c438b264c1b3dd11564b577">Commit</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="structRepos.html">   53</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structRepos.html">Repos</a>{</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="structRepos.html#a9f4fe3b948a760b8934ee9ec2f26d797">   55</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#a9f4fe3b948a760b8934ee9ec2f26d797">cmt_id</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="structRepos.html#a362a4c7b9a908296840a556a9ab2e3da">   57</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#a362a4c7b9a908296840a556a9ab2e3da">owner_id</a>;</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="structRepos.html#ad6d067a79783bf03e90fe57e87cf6f7e">   59</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structRepos.html#ad6d067a79783bf03e90fe57e87cf6f7e">full_name</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="structRepos.html#a3bedf47007bbf2031066efaaae631723">   61</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structRepos.html#a3bedf47007bbf2031066efaaae631723">license</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="structRepos.html#a6690d49f5f20fc7685fcb9eb61db67dc">   63</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structRepos.html#a6690d49f5f20fc7685fcb9eb61db67dc">has_wiki</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="structRepos.html#aa273f1c43463f1d99d5a9ab0a2548e85">   65</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structRepos.html#aa273f1c43463f1d99d5a9ab0a2548e85">description</a>;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="structRepos.html#a4369af4fd53af8e19852127fbcabafc1">   67</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structRepos.html#a4369af4fd53af8e19852127fbcabafc1">language</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="structRepos.html#a15d94d5f440998267c7bb1855cf25752">   69</a></span>    <span class="keywordtype">char</span> *<a class="code hl_variable" href="structRepos.html#a15d94d5f440998267c7bb1855cf25752">default_branch</a>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="structRepos.html#a2d0562456c76316a27d3f9b60140e5f0">   71</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#a2d0562456c76316a27d3f9b60140e5f0">cr_date</a>[6];</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structRepos.html#a09df318f0df17fc1dab35682855f1477">   73</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#a09df318f0df17fc1dab35682855f1477">updated_at</a>[6];</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="structRepos.html#ac3f61ec1640784e720c085b207f6726c">   75</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#ac3f61ec1640784e720c085b207f6726c">forks_count</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="structRepos.html#a5d5a45d20cb6167575f46d84cc723e44">   77</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#a5d5a45d20cb6167575f46d84cc723e44">open_issues</a>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="structRepos.html#a6c1f8d9d2739189aa656a22c2b9d9784">   79</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#a6c1f8d9d2739189aa656a22c2b9d9784">stargazers_count</a>;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="structRepos.html#ab71bee54c055ef08e223da42677fa9f6">   81</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structRepos.html#ab71bee54c055ef08e223da42677fa9f6">size</a>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="structs_8h.html#a35730f9b2741ffbd6db531e3472ad2a0">   83</a></span>}<a class="code hl_typedef" href="structs_8h.html#a35730f9b2741ffbd6db531e3472ad2a0">Repo</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="structuser__entry.html">   86</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structuser__entry.html">user_entry</a>{</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="structuser__entry.html#af84126e0dc4e13f7f6beef58cb2099a1">   87</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structuser__entry.html#af84126e0dc4e13f7f6beef58cb2099a1">id</a>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="structuser__entry.html#a958d5be7224983b57e219210507a05fd">   88</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structuser__entry.html">user_entry</a> *<a class="code hl_variable" href="structuser__entry.html#a958d5be7224983b57e219210507a05fd">next</a>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="structs_8h.html#accbb10df7b304b4a5e703ff779ce30a8">   90</a></span>}<a class="code hl_typedef" href="structs_8h.html#accbb10df7b304b4a5e703ff779ce30a8">user_entry</a>;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="structrepo__entry.html">   93</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structrepo__entry.html">repo_entry</a>{</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="structrepo__entry.html#a08ae8425d45a7a297ceb6ac3d2737dae">   94</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structrepo__entry.html#a08ae8425d45a7a297ceb6ac3d2737dae">id</a>;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="structrepo__entry.html#a272a05e2b321381887a3ef6ec8321b77">   95</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structrepo__entry.html">repo_entry</a> *<a class="code hl_variable" href="structrepo__entry.html#a272a05e2b321381887a3ef6ec8321b77">next</a>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="structs_8h.html#a89a9215aaffe08e6a8db342f02040041">   97</a></span>}<a class="code hl_typedef" href="structs_8h.html#a89a9215aaffe08e6a8db342f02040041">repo_entry</a>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="structcommit__entry.html">  100</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structcommit__entry.html">commit_entry</a>{</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="structcommit__entry.html#a8f72f3de205624b1632c3d453f040466">  101</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structcommit__entry.html#a8f72f3de205624b1632c3d453f040466">id</a>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="structcommit__entry.html#afdf7b452a69e085d99116ffb898bd79c">  102</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="structcommit__entry.html">commit_entry</a> *<a class="code hl_variable" href="structcommit__entry.html#afdf7b452a69e085d99116ffb898bd79c">next</a>;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="structs_8h.html#a65d9fd9c0862ffb05fefa5009fdde9d6">  104</a></span>}<a class="code hl_typedef" href="structs_8h.html#a65d9fd9c0862ffb05fefa5009fdde9d6">commit_entry</a>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="structhash__table.html">  107</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structhash__table.html">hash_table</a> {</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="structhash__table.html#abf8c0c15e90614eb11d0591ec277d0bd">  108</a></span>    <a class="code hl_struct" href="structuser__entry.html">user_entry</a> *<a class="code hl_variable" href="structhash__table.html#abf8c0c15e90614eb11d0591ec277d0bd">users</a>[<a class="code hl_define" href="structs_8h.html#a3dda2dea67f3569c5f5b4ea25b97d072">MAX_TABLE</a>];</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="structhash__table.html#a6ee0dd0ee8b571a8a40698b2395f055d">  109</a></span>    <a class="code hl_struct" href="structrepo__entry.html">repo_entry</a> *<a class="code hl_variable" href="structhash__table.html#a6ee0dd0ee8b571a8a40698b2395f055d">repos</a>[<a class="code hl_define" href="structs_8h.html#a3dda2dea67f3569c5f5b4ea25b97d072">MAX_TABLE</a>];</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="structhash__table.html#ab084ec09fb43bcf9b87d1e8b0847e86f">  110</a></span>    <a class="code hl_struct" href="structcommit__entry.html">commit_entry</a> *<a class="code hl_variable" href="structhash__table.html#ab084ec09fb43bcf9b87d1e8b0847e86f">commits</a>[<a class="code hl_define" href="structs_8h.html#a3dda2dea67f3569c5f5b4ea25b97d072">MAX_TABLE</a>];</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="structs_8h.html#a4dfdedf079ba60cdd9684966b8d84948">  112</a></span>}<a class="code hl_typedef" href="structs_8h.html#a4dfdedf079ba60cdd9684966b8d84948">Hash_table</a>;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="keywordtype">int</span> <a class="code hl_function" href="structs_8h.html#a2d1f43fd5b0d8256006c88c4b55dba94">verify_int</a>(<span class="keywordtype">char</span> *);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keywordtype">int</span> <a class="code hl_function" href="structs_8h.html#a85616f46f6244e90310b31b3af162a06">verify_type</a>(<span class="keywordtype">char</span> *);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="keywordtype">int</span> <a class="code hl_function" href="structs_8h.html#a490fed19650da15305cba84458ce28c4">build_date</a>(<span class="keywordtype">char</span> *dt, <span class="keywordtype">int</span> *data);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astructCommits_html"><div class="ttname"><a href="structCommits.html">Commits</a></div><div class="ttdef"><b>Definition:</b> structs.h:38</div></div>
+<div class="ttc" id="astructCommits_html_a16e776702acd0d2ab41cddd0d2771e93"><div class="ttname"><a href="structCommits.html#a16e776702acd0d2ab41cddd0d2771e93">Commits::repo_id</a></div><div class="ttdeci">int repo_id</div><div class="ttdef"><b>Definition:</b> structs.h:40</div></div>
+<div class="ttc" id="astructCommits_html_a3a1e0d42b19f2af1339c340c428f1f08"><div class="ttname"><a href="structCommits.html#a3a1e0d42b19f2af1339c340c428f1f08">Commits::committer_id</a></div><div class="ttdeci">int committer_id</div><div class="ttdef"><b>Definition:</b> structs.h:44</div></div>
+<div class="ttc" id="astructCommits_html_a6e8c58d3fa86d3e7b8c9ce5a32a5bd13"><div class="ttname"><a href="structCommits.html#a6e8c58d3fa86d3e7b8c9ce5a32a5bd13">Commits::cmt_date</a></div><div class="ttdeci">int cmt_date[6]</div><div class="ttdef"><b>Definition:</b> structs.h:46</div></div>
+<div class="ttc" id="astructCommits_html_aaeec01da8847f64b222c75e579438591"><div class="ttname"><a href="structCommits.html#aaeec01da8847f64b222c75e579438591">Commits::message</a></div><div class="ttdeci">char * message</div><div class="ttdef"><b>Definition:</b> structs.h:48</div></div>
+<div class="ttc" id="astructCommits_html_ac7ef59674b859ee36d2f7b901cd2dd73"><div class="ttname"><a href="structCommits.html#ac7ef59674b859ee36d2f7b901cd2dd73">Commits::author_id</a></div><div class="ttdeci">int author_id</div><div class="ttdef"><b>Definition:</b> structs.h:42</div></div>
+<div class="ttc" id="astructRepos_html"><div class="ttname"><a href="structRepos.html">Repos</a></div><div class="ttdef"><b>Definition:</b> structs.h:53</div></div>
+<div class="ttc" id="astructRepos_html_a09df318f0df17fc1dab35682855f1477"><div class="ttname"><a href="structRepos.html#a09df318f0df17fc1dab35682855f1477">Repos::updated_at</a></div><div class="ttdeci">int updated_at[6]</div><div class="ttdef"><b>Definition:</b> structs.h:73</div></div>
+<div class="ttc" id="astructRepos_html_a15d94d5f440998267c7bb1855cf25752"><div class="ttname"><a href="structRepos.html#a15d94d5f440998267c7bb1855cf25752">Repos::default_branch</a></div><div class="ttdeci">char * default_branch</div><div class="ttdef"><b>Definition:</b> structs.h:69</div></div>
+<div class="ttc" id="astructRepos_html_a2d0562456c76316a27d3f9b60140e5f0"><div class="ttname"><a href="structRepos.html#a2d0562456c76316a27d3f9b60140e5f0">Repos::cr_date</a></div><div class="ttdeci">int cr_date[6]</div><div class="ttdef"><b>Definition:</b> structs.h:71</div></div>
+<div class="ttc" id="astructRepos_html_a362a4c7b9a908296840a556a9ab2e3da"><div class="ttname"><a href="structRepos.html#a362a4c7b9a908296840a556a9ab2e3da">Repos::owner_id</a></div><div class="ttdeci">int owner_id</div><div class="ttdef"><b>Definition:</b> structs.h:57</div></div>
+<div class="ttc" id="astructRepos_html_a3bedf47007bbf2031066efaaae631723"><div class="ttname"><a href="structRepos.html#a3bedf47007bbf2031066efaaae631723">Repos::license</a></div><div class="ttdeci">char * license</div><div class="ttdef"><b>Definition:</b> structs.h:61</div></div>
+<div class="ttc" id="astructRepos_html_a4369af4fd53af8e19852127fbcabafc1"><div class="ttname"><a href="structRepos.html#a4369af4fd53af8e19852127fbcabafc1">Repos::language</a></div><div class="ttdeci">char * language</div><div class="ttdef"><b>Definition:</b> structs.h:67</div></div>
+<div class="ttc" id="astructRepos_html_a5d5a45d20cb6167575f46d84cc723e44"><div class="ttname"><a href="structRepos.html#a5d5a45d20cb6167575f46d84cc723e44">Repos::open_issues</a></div><div class="ttdeci">int open_issues</div><div class="ttdef"><b>Definition:</b> structs.h:77</div></div>
+<div class="ttc" id="astructRepos_html_a6690d49f5f20fc7685fcb9eb61db67dc"><div class="ttname"><a href="structRepos.html#a6690d49f5f20fc7685fcb9eb61db67dc">Repos::has_wiki</a></div><div class="ttdeci">char * has_wiki</div><div class="ttdef"><b>Definition:</b> structs.h:63</div></div>
+<div class="ttc" id="astructRepos_html_a6c1f8d9d2739189aa656a22c2b9d9784"><div class="ttname"><a href="structRepos.html#a6c1f8d9d2739189aa656a22c2b9d9784">Repos::stargazers_count</a></div><div class="ttdeci">int stargazers_count</div><div class="ttdef"><b>Definition:</b> structs.h:79</div></div>
+<div class="ttc" id="astructRepos_html_a9f4fe3b948a760b8934ee9ec2f26d797"><div class="ttname"><a href="structRepos.html#a9f4fe3b948a760b8934ee9ec2f26d797">Repos::cmt_id</a></div><div class="ttdeci">int cmt_id</div><div class="ttdef"><b>Definition:</b> structs.h:55</div></div>
+<div class="ttc" id="astructRepos_html_aa273f1c43463f1d99d5a9ab0a2548e85"><div class="ttname"><a href="structRepos.html#aa273f1c43463f1d99d5a9ab0a2548e85">Repos::description</a></div><div class="ttdeci">char * description</div><div class="ttdef"><b>Definition:</b> structs.h:65</div></div>
+<div class="ttc" id="astructRepos_html_ab71bee54c055ef08e223da42677fa9f6"><div class="ttname"><a href="structRepos.html#ab71bee54c055ef08e223da42677fa9f6">Repos::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definition:</b> structs.h:81</div></div>
+<div class="ttc" id="astructRepos_html_ac3f61ec1640784e720c085b207f6726c"><div class="ttname"><a href="structRepos.html#ac3f61ec1640784e720c085b207f6726c">Repos::forks_count</a></div><div class="ttdeci">int forks_count</div><div class="ttdef"><b>Definition:</b> structs.h:75</div></div>
+<div class="ttc" id="astructRepos_html_ad6d067a79783bf03e90fe57e87cf6f7e"><div class="ttname"><a href="structRepos.html#ad6d067a79783bf03e90fe57e87cf6f7e">Repos::full_name</a></div><div class="ttdeci">char * full_name</div><div class="ttdef"><b>Definition:</b> structs.h:59</div></div>
+<div class="ttc" id="astructUsers_html"><div class="ttname"><a href="structUsers.html">Users</a></div><div class="ttdef"><b>Definition:</b> structs.h:13</div></div>
+<div class="ttc" id="astructUsers_html_a1e720ec4dbfdf9d970459436339ef44b"><div class="ttname"><a href="structUsers.html#a1e720ec4dbfdf9d970459436339ef44b">Users::pub_gist</a></div><div class="ttdeci">int pub_gist</div><div class="ttdef"><b>Definition:</b> structs.h:31</div></div>
+<div class="ttc" id="astructUsers_html_a226322d48acef7655483ec29559366ab"><div class="ttname"><a href="structUsers.html#a226322d48acef7655483ec29559366ab">Users::pub_repo</a></div><div class="ttdeci">int pub_repo</div><div class="ttdef"><b>Definition:</b> structs.h:33</div></div>
+<div class="ttc" id="astructUsers_html_a23ebfb93d58593f90e1f55991111ae5b"><div class="ttname"><a href="structUsers.html#a23ebfb93d58593f90e1f55991111ae5b">Users::flr_id</a></div><div class="ttdeci">int * flr_id</div><div class="ttdef"><b>Definition:</b> structs.h:25</div></div>
+<div class="ttc" id="astructUsers_html_a6fa048c4e0697f199d01f10fc527a6fd"><div class="ttname"><a href="structUsers.html#a6fa048c4e0697f199d01f10fc527a6fd">Users::flg_id</a></div><div class="ttdeci">int * flg_id</div><div class="ttdef"><b>Definition:</b> structs.h:29</div></div>
+<div class="ttc" id="astructUsers_html_a80b85fdae156d15e8cf9bb78c50afa42"><div class="ttname"><a href="structUsers.html#a80b85fdae156d15e8cf9bb78c50afa42">Users::c_date</a></div><div class="ttdeci">int c_date[6]</div><div class="ttdef"><b>Definition:</b> structs.h:21</div></div>
+<div class="ttc" id="astructUsers_html_a9227a9e924b546e37b745aa152d7ca23"><div class="ttname"><a href="structUsers.html#a9227a9e924b546e37b745aa152d7ca23">Users::id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> structs.h:15</div></div>
+<div class="ttc" id="astructUsers_html_ac3878b33bf67320891089102341efbb0"><div class="ttname"><a href="structUsers.html#ac3878b33bf67320891089102341efbb0">Users::login</a></div><div class="ttdeci">char * login</div><div class="ttdef"><b>Definition:</b> structs.h:17</div></div>
+<div class="ttc" id="astructUsers_html_acbfb489904307b23316e8b05d905707f"><div class="ttname"><a href="structUsers.html#acbfb489904307b23316e8b05d905707f">Users::followers</a></div><div class="ttdeci">int followers</div><div class="ttdef"><b>Definition:</b> structs.h:23</div></div>
+<div class="ttc" id="astructUsers_html_ad00939e9ea77aec2dcd0a898a1f376b6"><div class="ttname"><a href="structUsers.html#ad00939e9ea77aec2dcd0a898a1f376b6">Users::following</a></div><div class="ttdeci">int following</div><div class="ttdef"><b>Definition:</b> structs.h:27</div></div>
+<div class="ttc" id="astructUsers_html_affbbdc691594cd82f74931515fef5a42"><div class="ttname"><a href="structUsers.html#affbbdc691594cd82f74931515fef5a42">Users::type</a></div><div class="ttdeci">char * type</div><div class="ttdef"><b>Definition:</b> structs.h:19</div></div>
+<div class="ttc" id="astructcommit__entry_html"><div class="ttname"><a href="structcommit__entry.html">commit_entry</a></div><div class="ttdef"><b>Definition:</b> structs.h:100</div></div>
+<div class="ttc" id="astructcommit__entry_html_a8f72f3de205624b1632c3d453f040466"><div class="ttname"><a href="structcommit__entry.html#a8f72f3de205624b1632c3d453f040466">commit_entry::id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> structs.h:101</div></div>
+<div class="ttc" id="astructcommit__entry_html_afdf7b452a69e085d99116ffb898bd79c"><div class="ttname"><a href="structcommit__entry.html#afdf7b452a69e085d99116ffb898bd79c">commit_entry::next</a></div><div class="ttdeci">struct commit_entry * next</div><div class="ttdef"><b>Definition:</b> structs.h:102</div></div>
+<div class="ttc" id="astructhash__table_html"><div class="ttname"><a href="structhash__table.html">hash_table</a></div><div class="ttdef"><b>Definition:</b> structs.h:107</div></div>
+<div class="ttc" id="astructhash__table_html_a6ee0dd0ee8b571a8a40698b2395f055d"><div class="ttname"><a href="structhash__table.html#a6ee0dd0ee8b571a8a40698b2395f055d">hash_table::repos</a></div><div class="ttdeci">repo_entry * repos[MAX_TABLE]</div><div class="ttdef"><b>Definition:</b> structs.h:109</div></div>
+<div class="ttc" id="astructhash__table_html_ab084ec09fb43bcf9b87d1e8b0847e86f"><div class="ttname"><a href="structhash__table.html#ab084ec09fb43bcf9b87d1e8b0847e86f">hash_table::commits</a></div><div class="ttdeci">commit_entry * commits[MAX_TABLE]</div><div class="ttdef"><b>Definition:</b> structs.h:110</div></div>
+<div class="ttc" id="astructhash__table_html_abf8c0c15e90614eb11d0591ec277d0bd"><div class="ttname"><a href="structhash__table.html#abf8c0c15e90614eb11d0591ec277d0bd">hash_table::users</a></div><div class="ttdeci">user_entry * users[MAX_TABLE]</div><div class="ttdef"><b>Definition:</b> structs.h:108</div></div>
+<div class="ttc" id="astructrepo__entry_html"><div class="ttname"><a href="structrepo__entry.html">repo_entry</a></div><div class="ttdef"><b>Definition:</b> structs.h:93</div></div>
+<div class="ttc" id="astructrepo__entry_html_a08ae8425d45a7a297ceb6ac3d2737dae"><div class="ttname"><a href="structrepo__entry.html#a08ae8425d45a7a297ceb6ac3d2737dae">repo_entry::id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> structs.h:94</div></div>
+<div class="ttc" id="astructrepo__entry_html_a272a05e2b321381887a3ef6ec8321b77"><div class="ttname"><a href="structrepo__entry.html#a272a05e2b321381887a3ef6ec8321b77">repo_entry::next</a></div><div class="ttdeci">struct repo_entry * next</div><div class="ttdef"><b>Definition:</b> structs.h:95</div></div>
+<div class="ttc" id="astructs_8h_html_a2d1f43fd5b0d8256006c88c4b55dba94"><div class="ttname"><a href="structs_8h.html#a2d1f43fd5b0d8256006c88c4b55dba94">verify_int</a></div><div class="ttdeci">int verify_int(char *)</div><div class="ttdoc">Verifica se o inteiro é nao negativo, ou seja, se e valido.</div><div class="ttdef"><b>Definition:</b> structs.c:12</div></div>
+<div class="ttc" id="astructs_8h_html_a35730f9b2741ffbd6db531e3472ad2a0"><div class="ttname"><a href="structs_8h.html#a35730f9b2741ffbd6db531e3472ad2a0">Repo</a></div><div class="ttdeci">struct Repos Repo</div></div>
+<div class="ttc" id="astructs_8h_html_a3dda2dea67f3569c5f5b4ea25b97d072"><div class="ttname"><a href="structs_8h.html#a3dda2dea67f3569c5f5b4ea25b97d072">MAX_TABLE</a></div><div class="ttdeci">#define MAX_TABLE</div><div class="ttdef"><b>Definition:</b> structs.h:8</div></div>
+<div class="ttc" id="astructs_8h_html_a490fed19650da15305cba84458ce28c4"><div class="ttname"><a href="structs_8h.html#a490fed19650da15305cba84458ce28c4">build_date</a></div><div class="ttdeci">int build_date(char *dt, int *data)</div><div class="ttdoc">Verifica se a data e valida.</div><div class="ttdef"><b>Definition:</b> structs.c:29</div></div>
+<div class="ttc" id="astructs_8h_html_a4dfdedf079ba60cdd9684966b8d84948"><div class="ttname"><a href="structs_8h.html#a4dfdedf079ba60cdd9684966b8d84948">Hash_table</a></div><div class="ttdeci">struct hash_table Hash_table</div></div>
+<div class="ttc" id="astructs_8h_html_a4e9a2310a7dd63e26512f1e5fcdbcd69"><div class="ttname"><a href="structs_8h.html#a4e9a2310a7dd63e26512f1e5fcdbcd69">User</a></div><div class="ttdeci">struct Users User</div></div>
+<div class="ttc" id="astructs_8h_html_a65d9fd9c0862ffb05fefa5009fdde9d6"><div class="ttname"><a href="structs_8h.html#a65d9fd9c0862ffb05fefa5009fdde9d6">commit_entry</a></div><div class="ttdeci">struct commit_entry commit_entry</div></div>
+<div class="ttc" id="astructs_8h_html_a85616f46f6244e90310b31b3af162a06"><div class="ttname"><a href="structs_8h.html#a85616f46f6244e90310b31b3af162a06">verify_type</a></div><div class="ttdeci">int verify_type(char *)</div><div class="ttdoc">Verifica se o tipo e valido.</div><div class="ttdef"><b>Definition:</b> structs.c:23</div></div>
+<div class="ttc" id="astructs_8h_html_a89a9215aaffe08e6a8db342f02040041"><div class="ttname"><a href="structs_8h.html#a89a9215aaffe08e6a8db342f02040041">repo_entry</a></div><div class="ttdeci">struct repo_entry repo_entry</div></div>
+<div class="ttc" id="astructs_8h_html_abd9367fe4c438b264c1b3dd11564b577"><div class="ttname"><a href="structs_8h.html#abd9367fe4c438b264c1b3dd11564b577">Commit</a></div><div class="ttdeci">struct Commits Commit</div></div>
+<div class="ttc" id="astructs_8h_html_accbb10df7b304b4a5e703ff779ce30a8"><div class="ttname"><a href="structs_8h.html#accbb10df7b304b4a5e703ff779ce30a8">user_entry</a></div><div class="ttdeci">struct user_entry user_entry</div></div>
+<div class="ttc" id="astructuser__entry_html"><div class="ttname"><a href="structuser__entry.html">user_entry</a></div><div class="ttdef"><b>Definition:</b> structs.h:86</div></div>
+<div class="ttc" id="astructuser__entry_html_a958d5be7224983b57e219210507a05fd"><div class="ttname"><a href="structuser__entry.html#a958d5be7224983b57e219210507a05fd">user_entry::next</a></div><div class="ttdeci">struct user_entry * next</div><div class="ttdef"><b>Definition:</b> structs.h:88</div></div>
+<div class="ttc" id="astructuser__entry_html_af84126e0dc4e13f7f6beef58cb2099a1"><div class="ttname"><a href="structuser__entry.html#af84126e0dc4e13f7f6beef58cb2099a1">user_entry::id</a></div><div class="ttdeci">int id</div><div class="ttdef"><b>Definition:</b> structs.h:87</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

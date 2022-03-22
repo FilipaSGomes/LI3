@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guiao 1: Código-Fonte de /home/ric/Documents/grupo9/src/commits.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Guiao 1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">commits.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="commits_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef COMMITS_H</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#define COMMITS_H</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="structs_8h.html">structs.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="hash_8h.html">hash.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keywordtype">int</span> <a class="code hl_function" href="commits_8h.html#acd0dc4f8b75a69418756fe78755a1e1f">verify_commits</a>(<a class="code hl_struct" href="structCommits.html">Commit</a> *);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">int</span> <a class="code hl_function" href="commits_8h.html#aa9061a0556415b69fdc9b71ddfb56c02">build_commits</a>(<a class="code hl_struct" href="structCommits.html">Commit</a> *, <span class="keywordtype">char</span> *, <span class="keywordtype">int</span> *);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">void</span> <a class="code hl_function" href="commits_8h.html#a9b64543b1f9a8525a95ba718af4ad6d3">insert_commit</a>(<span class="keywordtype">int</span>, <a class="code hl_struct" href="structhash__table.html">Hash_table</a> *);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="commits_8h.html#a935f3e9c002879bb6061ef1e59fc761f">free_commits</a>(<a class="code hl_struct" href="structCommits.html">Commit</a> *, <span class="keywordtype">int</span> );</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keywordtype">int</span> <a class="code hl_function" href="commits_8h.html#a6fa6a28d1c414a1187561499ebc417bf">build_hash_commits</a>(<a class="code hl_struct" href="structCommits.html">Commit</a> *, <a class="code hl_struct" href="structhash__table.html">Hash_table</a> *, <span class="keywordtype">char</span> *, <span class="keywordtype">int</span> *);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><a class="code hl_struct" href="structCommits.html">Commit</a> *<a class="code hl_function" href="commits_8h.html#a71b2e4a9b5c0a9587bfeece14a107223">parse_hash_commits</a>(<a class="code hl_struct" href="structhash__table.html">Hash_table</a> *, <span class="keywordtype">int</span> *, <span class="keywordtype">char</span> *);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keywordtype">int</span> <a class="code hl_function" href="commits_8h.html#a7048b70d6ca7be7277f7c4b12ef393ef">save_hash_commits</a>(<a class="code hl_struct" href="structCommits.html">Commit</a> *, <a class="code hl_struct" href="structhash__table.html">Hash_table</a> *,<span class="keywordtype">int</span> , <span class="keywordtype">char</span> *);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><a class="code hl_struct" href="structCommits.html">Commit</a> *<a class="code hl_function" href="commits_8h.html#a459d31813df8e7d32c59024884a6b417">parse_commits</a>(<span class="keywordtype">int</span> *, <span class="keywordtype">char</span> *);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keywordtype">int</span> <a class="code hl_function" href="commits_8h.html#a86c3340cf32887756aa897694e2e5d11">save_commits</a>(<a class="code hl_struct" href="structCommits.html">Commit</a> *, <span class="keywordtype">int</span>, <span class="keywordtype">char</span> *);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acommits_8h_html_a459d31813df8e7d32c59024884a6b417"><div class="ttname"><a href="commits_8h.html#a459d31813df8e7d32c59024884a6b417">parse_commits</a></div><div class="ttdeci">Commit * parse_commits(int *, char *)</div><div class="ttdoc">Interpeta o ficheiro retornando as linhas validas na forma de um lista de structs commits.</div><div class="ttdef"><b>Definition:</b> commits.c:30</div></div>
+<div class="ttc" id="acommits_8h_html_a6fa6a28d1c414a1187561499ebc417bf"><div class="ttname"><a href="commits_8h.html#a6fa6a28d1c414a1187561499ebc417bf">build_hash_commits</a></div><div class="ttdeci">int build_hash_commits(Commit *, Hash_table *, char *, int *)</div><div class="ttdoc">Constroi uma struct Commit a partir de um registo, se este for valido.</div><div class="ttdef"><b>Definition:</b> commits.c:93</div></div>
+<div class="ttc" id="acommits_8h_html_a7048b70d6ca7be7277f7c4b12ef393ef"><div class="ttname"><a href="commits_8h.html#a7048b70d6ca7be7277f7c4b12ef393ef">save_hash_commits</a></div><div class="ttdeci">int save_hash_commits(Commit *, Hash_table *, int, char *)</div><div class="ttdoc">Guarda os commits validos num ficheiro .csv.</div><div class="ttdef"><b>Definition:</b> commits.c:135</div></div>
+<div class="ttc" id="acommits_8h_html_a71b2e4a9b5c0a9587bfeece14a107223"><div class="ttname"><a href="commits_8h.html#a71b2e4a9b5c0a9587bfeece14a107223">parse_hash_commits</a></div><div class="ttdeci">Commit * parse_hash_commits(Hash_table *, int *, char *)</div><div class="ttdoc">Interpeta o ficheiro retornando as linhas validas na forma de um lista de structs commits.</div><div class="ttdef"><b>Definition:</b> commits.c:111</div></div>
+<div class="ttc" id="acommits_8h_html_a86c3340cf32887756aa897694e2e5d11"><div class="ttname"><a href="commits_8h.html#a86c3340cf32887756aa897694e2e5d11">save_commits</a></div><div class="ttdeci">int save_commits(Commit *, int, char *)</div><div class="ttdoc">Guarda os commits validos num ficheiro .csv.</div><div class="ttdef"><b>Definition:</b> commits.c:55</div></div>
+<div class="ttc" id="acommits_8h_html_a935f3e9c002879bb6061ef1e59fc761f"><div class="ttname"><a href="commits_8h.html#a935f3e9c002879bb6061ef1e59fc761f">free_commits</a></div><div class="ttdeci">void free_commits(Commit *, int)</div><div class="ttdoc">Da free a todos os commits existentes.</div><div class="ttdef"><b>Definition:</b> commits.c:69</div></div>
+<div class="ttc" id="acommits_8h_html_a9b64543b1f9a8525a95ba718af4ad6d3"><div class="ttname"><a href="commits_8h.html#a9b64543b1f9a8525a95ba718af4ad6d3">insert_commit</a></div><div class="ttdeci">void insert_commit(int, Hash_table *)</div><div class="ttdoc">Insere um commit numa hashtable.</div><div class="ttdef"><b>Definition:</b> commits.c:79</div></div>
+<div class="ttc" id="acommits_8h_html_aa9061a0556415b69fdc9b71ddfb56c02"><div class="ttname"><a href="commits_8h.html#aa9061a0556415b69fdc9b71ddfb56c02">build_commits</a></div><div class="ttdeci">int build_commits(Commit *, char *, int *)</div><div class="ttdoc">Constroi uma struct Commit a partir de um registo, se este for valido.</div><div class="ttdef"><b>Definition:</b> commits.c:15</div></div>
+<div class="ttc" id="acommits_8h_html_acd0dc4f8b75a69418756fe78755a1e1f"><div class="ttname"><a href="commits_8h.html#acd0dc4f8b75a69418756fe78755a1e1f">verify_commits</a></div><div class="ttdeci">int verify_commits(Commit *)</div><div class="ttdoc">Verifica se os parametros do Commit são validos.</div><div class="ttdef"><b>Definition:</b> commits.c:9</div></div>
+<div class="ttc" id="ahash_8h_html"><div class="ttname"><a href="hash_8h.html">hash.h</a></div></div>
+<div class="ttc" id="astructCommits_html"><div class="ttname"><a href="structCommits.html">Commits</a></div><div class="ttdef"><b>Definition:</b> structs.h:38</div></div>
+<div class="ttc" id="astructhash__table_html"><div class="ttname"><a href="structhash__table.html">hash_table</a></div><div class="ttdef"><b>Definition:</b> structs.h:107</div></div>
+<div class="ttc" id="astructs_8h_html"><div class="ttname"><a href="structs_8h.html">structs.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>
